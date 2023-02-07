@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, sort_child_properties_last, use_build_context_synchronously
 
 
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:developer';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
@@ -86,7 +86,7 @@ class _IndexPageState extends State<IndexPage> {
     );
   }
 
-  Future<void> onJoin() async {
+   onJoin() async {
     setState(() {
       _channelController.text.isEmpty
           ? _validateError = true
@@ -110,4 +110,4 @@ class _IndexPageState extends State<IndexPage> {
     final status = await permission.request();
     log(status.toString());
   }
-}
+}*/
